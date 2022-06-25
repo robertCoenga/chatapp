@@ -1,0 +1,73 @@
+body{
+    color: #B3F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url("../images/background.jpg");
+    background-color: #0E2A70;
+}
+
+.blue-text{
+    color: #00F0FF
+}
+
+
+.sidebar i{
+    color: #fcfcfc;
+    font-size: 1.5rem;
+}
+
+#chats .sidebar{
+    background-color: #094f6d;
+}
+
+#chats .sidebar:hover{
+    background-color: #094f6d87;
+}
+
+#config-messages, #user-chat
+{
+    background-color: #094f6d;
+}
+#card-user
+{
+    background-color: #1d5e7c;
+    
+}
+#user-logo
+{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width: 767px) 
+{
+    #join-groups{
+        display: none;
+    }    
+}
+
+#search input, #groups input{
+    background-color: #10324E;
+    color: #fcfcfc;
+}
+
+#groups button{
+    background-color: #6889A6;
+}
+
+#groups .topbar{
+    background-color: #094f6d;
+}
+
+#groups{
+    background-color: #094f6d87;
+}
+
+.group{
+    background-color: #10324E;
+}
+
+#group-list i{
+    font-size: 2.5rem;
+    color: #6889A6;
+}
